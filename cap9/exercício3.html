@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="https://via.placeholder.com/200x200?text=Logo+Copa" alt="Logo da Copa" class="img-fluid">
+            </div>
+            <div class="col-sm-8">
+                <h1>Copa do Brasil - Classificados</h1>
+                <p>
+                    <label for="inClube">Clube:</label>
+                    <input type="text" class="form-control" id="inClube">
+                </p>
+    
+                <p class="aEsquerda">
+                    <input type="button" value="Adicionar" class="btn btn-primary" id="btAdicionar">
+                    <input type="button" value="Montar Tabela de Jogos" class="btn btn-success" id="btMontar">
+                    <input type="button" value="Novos Clubes" class="btn btn-danger" id="btNovos">
+                </p>
+                <h4>Clubes Adicionados</h4>
+                <pre id="outClubes" class="bg-ligth p-3 border rounded"></pre>
+
+                <h3 class="mt-4">Tabela de Jogos</h3>
+                <table id="outTable" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Jogo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/exercício3.js"></script>
+</body>
+
+</html>
